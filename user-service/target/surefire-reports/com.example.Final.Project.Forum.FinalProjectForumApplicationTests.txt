@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.Final.Project.Forum.FinalProjectForumApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.319 s <<< FAILURE! - in com.example.Final.Project.Forum.FinalProjectForumApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalArgumentException: Unable to instantiate org.springframework.cloud.vault.config.VaultConfigDataLoader [org.springframework.boot.context.config.ConfigDataLoader]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/vault/core/env/LeaseAwareVaultPropertySource
+Caused by: java.lang.ClassNotFoundException: org.springframework.vault.core.env.LeaseAwareVaultPropertySource
+
