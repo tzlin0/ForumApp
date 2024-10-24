@@ -40,3 +40,10 @@ The project is divided into the following core services:
 ```bash
 git clone https://github.com/your-repository/twitter-forum-app.git
 cd twitter-forum-app
+
+twitter-forum-app/
+├── eureka-service/           # Eureka service for service registration and discovery
+├── user-service/             # Manages user-related data and functionalities
+├── authentication-service/   # Manages user authentication and authorization
+├── message-service/          # Handles post and forum-related operations
+├── README.md                 # Project documentation
